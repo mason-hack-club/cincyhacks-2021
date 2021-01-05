@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Futura;
+    src: url("futura.ttf");
+}
+#banner{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 60vw;
+    font-family: Futura;
+    align-items: center;
+    margin: 0px;
+}
+body {
+    background-color: #EF3E4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+input {
+    width: 100%;
+    border: 3px solid lightgrey;
+    border-radius: 100px;
+    margin-bottom: 1vh;
+    height: 4vh;
+    text-indent: 1vw;
+    font-family: Futura;
+}
+select{
+    text-indent: .5vw;
+    font-family: Futura;
+}
+form{
+    font-family: Futura;
+}
+select{
+    margin-bottom: 1vh;
+}
+input:focus{
+    border: 3px solid grey;
+}
+form{
+    width:60%;
+}
+#formNester{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+h1{
+    font-family: Futura;
+}
+select:focus{
+    border: 3px solid grey;
+}
+select{
+    height: 4vh;
+    border-radius: 100px;
+}
+input[type=button]{
+    height: 6vh;
+    margin-top: 2vh;
+    font-family: Futura;
+    color: white;
+    font-size: 3vh;
+    background-color: #EF3E4A; 
+}
+@media only screen and (max-width: 900px){
+    #banner div h4{
+        text-align: center;
+    }
+    #banner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
