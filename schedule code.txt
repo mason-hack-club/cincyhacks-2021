@@ -1,0 +1,106 @@
+ <table class="schedule">
+                    <tbody>
+                    <tr class="schedule__header">
+                        <td colspan="2">Saturday 25th</td>
+                    </tr>
+<!--                    <tr class="schedule__titles">-->
+<!--                        <td class="schedule__time">Time</td>-->
+<!--                        <td class="schedule__event">Event</td>-->
+<!--                    </tr>-->
+                    <tr>
+                        <td class="schedule__time">8:30 AM</td>
+                        <td class="schedule__event">👋 Doors Open/Check-In</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">9:15 AM</td>
+                        <td class="schedule__event">📢 Opening Ceremony</td>
+                    </tr>
+<!--                    <tr>-->
+<!--                        <td class="schedule__time">9:45 AM</td>-->
+<!--                        <td class="schedule__event">👥 Team Formation (optional)</td>-->
+<!--                    </tr>-->
+                    <tr>
+                        <td class="schedule__time">9:45 AM</td>
+                        <td class="schedule__event">👩&zwj;💻 Hacking Begins</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">10:30 AM</td>
+                        <td class="schedule__event">☁️ WS: Intro to Amazon AWS</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">11:30 AM</td>
+                        <td class="schedule__event">🕸 WS: Your 1<span style="vertical-align: super; font-size: 12px; margin-left: -2px">st</span> Website + AWS S3</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">12:30 AM</td>
+                        <td class="schedule__event">🍽️ Lunch: Zoup</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="schedule__time">2:30 PM</td>
+                        <td class="schedule__event">💬 WS: Chatbot with Polly and Lex</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">3:30 PM</td>
+                        <td class="schedule__event">🤖 WS: VR Basics</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">6:30 PM</td>
+                        <td class="schedule__event">🍽️ Dinner: Twin Dragon</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">7:30 PM</td>
+                        <td class="schedule__event">👁 WS: ML Facial/Object Detection</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="schedule">
+                    <tbody>
+                    <tr class="schedule__header">
+                        <td colspan="2" >Sunday 26th</td>
+                    </tr>
+<!--                    <tr class="schedule__titles">-->
+<!--                        <td class="schedule__time">Time</td>-->
+<!--                        <td class="schedule__event">Event</td>-->
+<!--                    </tr>-->
+                    <tr>
+                        <td class="schedule__time">12:00 AM</td>
+                        <td class="schedule__event">🍦 Midnight Snack</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">2:00 AM</td>
+                        <td class="schedule__event">👾 Game Break</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">7:00 AM</td>
+                        <td class="schedule__event">⚠️ 3 Hour Warning</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">7:30 AM</td>
+                        <td class="schedule__event">🍳 Breakfast</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">9:00 AM</td>
+                        <td class="schedule__event">📝 Start Project Submission</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">10:00 AM</td>
+                        <td class="schedule__event">⌛ Hacking Ends</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">10:15 AM</td>
+                        <td class="schedule__event">💬 Judging Begins</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">11:15 AM</td>
+                        <td class="schedule__event">🏆 Award Ceremony</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">11:45 AM</td>
+                        <td class="schedule__event">📢 Closing Ceremony</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule__time">12:00 PM</td>
+                        <td class="schedule__event">😭 Event Ends</td>
+                    </tr>
+                </table>

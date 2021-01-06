@@ -1,459 +1,459 @@
 @font-face {
   font-family: Futura;
-  src: url("futura.ttf");
+  src: url('futura.ttf');
 }
-#banner{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    width: 60vw;
-    font-family: Futura;
-    align-items: center;
-    margin: 0px;
+#banner {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 60vw;
+  font-family: Futura;
+  align-items: center;
+  margin: 0px;
 }
 body {
-    background-color: #EF3E4A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px;
+  background-color: #ef3e4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
 }
-#showcase{
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#showcase {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#showcaseFlex{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    margin-top: 7vh;
+#showcaseFlex {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-top: 7vh;
 }
-.showcaseElement{
-    padding: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 3vh;
+.showcaseElement {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3vh;
 }
-.showcaseElement img{
-    margin-right: 1vw;
-    width: 25vw;
-    border-radius: 25px;
+.showcaseElement img {
+  margin-right: 1vw;
+  width: 25vw;
+  border-radius: 25px;
 }
-.showcaseElement h2{
-    font-family: Futura;
-}
-.showcaseElement h2 span{
-    color: #EF3E4A;
-}
-.showcaseElement p{
-    font-family: 'Courier New', Courier, monospace;
-}
-.showcaseElement div{
-    max-width: 30vw;
-    margin-left: 3vw;
+.showcaseElement h2 {
+  font-family: Futura;
+  font-size: 40px;
 }
 
-.showcaseElementSpecial{
-    padding: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 3vh;
+.showcaseElement h2 span {
+  color: #ef3e4a;
 }
-.showcaseElementSpecial img{
-    margin-right: 1vw;
-    width: 25vw;
-    border-radius: 25px;
+.showcaseElement p {
+  font-family: Futura;
+  font-size: 20px;
 }
-.showcaseElementSpecial h2{
-    font-family: Futura;
-}
-.showcaseElementSpecial h2 span{
-    color: #EF3E4A;
-}
-.showcaseElementSpecial p{
-    font-family: 'Courier New', Courier, monospace;
+.showcaseElement div {
+  max-width: 30vw;
+  margin-left: 3vw;
 }
 
-.showcaseElementSpecial div{
-    max-width: 30vw;
-    margin-right: 3vw;
+.showcaseElementSpecial {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3vh;
+}
+.showcaseElementSpecial img {
+  margin-right: 1vw;
+  width: 25vw;
+  border-radius: 25px;
+}
+.showcaseElementSpecial h2 {
+  font-family: Futura;
+  font-size: 40px;
+}
+.showcaseElementSpecial h2 span {
+  color: #ef3e4a;
+}
+.showcaseElementSpecial p {
+  font-family: Futura;
+  font-size: 20px;
 }
 
-h4{
-    background-color: rgb(255, 255, 255);
-    color: rgb(54, 53, 52);
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0px);
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
-    transition-duration: 0.3s;
-    transition-property: transform;
-    cursor: pointer;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    padding: 16px 32px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 0px;
+.showcaseElementSpecial div {
+  max-width: 30vw;
+  margin-right: 3vw;
 }
-#register{
-    margin: 0px;
-    padding: 0px;
-    background-color: #EF3E4A;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
-}
-#registerFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: white;
-}
-#registerFlex div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-#registerFlex div a{
-    margin-left: 2vw;
-}
-#workshops{
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
-}
-#workshopsFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: black;
-}
-#workshopsFlex h1{
-    color: #EF3E4A;
 
+h4 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(54, 53, 52);
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0px);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  cursor: pointer;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0px;
 }
-#schedule{
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
+#register {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ef3e4a;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura;
 }
-#scheduleFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: black;
+#registerFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: white;
 }
-#scheduleFlex h1{
-    color: #EF3E4A;
+#registerFlex div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#registerFlex div a {
+  margin-left: 2vw;
+}
+#workshops {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura;
+}
+#workshopsFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: black;
+}
+#workshopsFlex h1 {
+  color: #ef3e4a;
+}
+#schedule {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura;
+}
+#scheduleFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: black;
+}
+#scheduleFlex h1 {
+  color: #ef3e4a;
 }
 
 #schedule__container {
-    display:flex;
-    flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .schedule {
-    width:50%;
-    height: 100%;
+  width: 50%;
+  height: 100%;
 }
 
 .schedule__header {
-    font-size:28px;
-    text-align: center;
+  font-size: 28px;
+  text-align: center;
 }
 
 .schedule__time {
-    text-align: right;
-    padding-right: 20px;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .schedule__event {
-
 }
 
-#faq{
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
+#faq {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura;
 }
-#faqFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: black;
-    margin-bottom: 5vh;
+#faqFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: black;
+  margin-bottom: 5vh;
 }
-#faqRow{
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    margin-top: 0;
+#faqRow {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
 }
-#faqElement{
-    display: flex;
-    flex-direction: column;
-    width: 26vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
+#faqElement {
+  display: flex;
+  flex-direction: column;
+  width: 26vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
-#faqFlex h1{
-    color: #EF3E4A;
-    margin-bottom: .5vh;
+#faqFlex h1 {
+  color: #ef3e4a;
+  margin-bottom: 0.5vh;
 }
-#team{
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
+#team {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura;
 }
-#teamFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: black;
-    margin-bottom: 5vh;
+#teamFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: black;
+  margin-bottom: 5vh;
 }
-#directors{
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    flex-wrap:wrap;
-    align-content: center;
-    justify-content:center;
+#directors {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
-#directorElement{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    text-align: center;
-    align-items: center;
-    width: 9rem;
-    justify-content:center;
-    margin-bottom: 5vh;
-    height: 100%;
+#directorElement {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  text-align: center;
+  align-items: center;
+  width: 9rem;
+  justify-content: center;
+  margin-bottom: 5vh;
+  height: 100%;
 }
-#directorElement a img{
-    max-width: 9rem;
-    border-radius: 100%;
+#directorElement a img {
+  max-width: 9rem;
+  border-radius: 100%;
 }
-#directorElement p{
-    margin:0;
+#directorElement p {
+  margin: 0;
 }
-#coordinators{
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    flex-wrap:wrap;
-    align-content: center;
-    justify-content:center;
-
+#coordinators {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
-#coordinatorElement{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    text-align: center;
-    align-items: center;
-    width: 10rem;
-    justify-content:center;
-    margin-bottom: 5vh;
-    height: 100%;
-
+#coordinatorElement {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  text-align: center;
+  align-items: center;
+  width: 10rem;
+  justify-content: center;
+  margin-bottom: 5vh;
+  height: 100%;
 }
-#coordinatorElement a img{
-    max-width: 9rem;
-    border-radius: 100%;
+#coordinatorElement a img {
+  max-width: 9rem;
+  border-radius: 100%;
 }
-#coordinatorElement p{
-    margin: 0;
+#coordinatorElement p {
+  margin: 0;
 }
 
-#ourTeam{
-    margin: 0px;
-    padding: 0px;
-    background-color: #EF3E4A;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
+#ourTeam {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ef3e4a;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura;
 }
-#ourTeamFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: white;
-    margin-bottom: 5vh;
+#ourTeamFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: white;
+  margin-bottom: 5vh;
 }
-#footer{
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(54,54,52);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
+#footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(54, 54, 52);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Futura;
 }
-#footerFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: white;
+#footerFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: white;
 }
-#sponsors{
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    width: 100%;
-    font-family: Futura;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#sponsors {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  font-family: Futura;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#sponsorsFlex{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    color: black;
-    margin-bottom: 5vh;
+#sponsorsFlex {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: black;
+  margin-bottom: 5vh;
 }
-#tierOneSponsors{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+#tierOneSponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-#tierOneSponsors img{
-    max-width: 15rem;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+#tierOneSponsors img {
+  max-width: 15rem;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
-#registerFlex p a:link{
-    color: white;
-    text-decoration: none;
+#registerFlex p a:link {
+  color: white;
+  text-decoration: none;
 }
-#registerFlex p a:visited{
-    color: white;
-    text-decoration: none;
+#registerFlex p a:visited {
+  color: white;
+  text-decoration: none;
 }
-#footerFlex p a:link{
-    color: white;
-    text-decoration: none;
+#footerFlex p a:link {
+  color: white;
+  text-decoration: none;
 }
-#footerFlex p a:visited{
-    color: white;
-    text-decoration: none;
+#footerFlex p a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1234px) {
-    #schedule__container {
-        display:flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-    }
+  #schedule__container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
 
-    .schedule {
-        width:100%;
-        height: auto;
-    }
+  .schedule {
+    width: 100%;
+    height: auto;
+  }
 
-    .schedule__header {
-        text-align: left;
-    }
+  .schedule__header {
+    text-align: left;
+  }
 
-    .schedule__time {
-        width: 100px
-    }
-    .schedule__event {
-        width: auto;
-    }
+  .schedule__time {
+    width: 100px;
+  }
+  .schedule__event {
+    width: auto;
+  }
 }
 
-@media only screen and (max-width: 1085px){
-    #banner div h4{
-        margin-bottom: 2vh;
-    }
+@media only screen and (max-width: 1085px) {
+  #banner div h4 {
+    margin-bottom: 2vh;
+  }
 }
-@media only screen and (max-width: 900px){
-    #faqRow{
-        flex-direction: column;
-        text-align: center;
-    }
-    #faqElement{
-        width: 100%;
-    }
-    #banner div h4{
-        text-align: center;
-    }
-    #banner{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .showcaseElement{
-        display: flex;
-        flex-direction: column;
-    }
-    .showcaseElement img{
-        width: 100%;
-        margin: 0;
-    }
-    .showcaseElement div{
-        max-width: 100%;
-        margin: 0;
-    }
-    .showcaseElementSpecial{
-        display: flex;
-        flex-direction: column-reverse;
-        margin: 0;
-    }
-    .showcaseElementSpecial img{
-        width: 100%;
-        margin: 0;
-    }
-    .showcaseElementSpecial div{
-        max-width: 100%;
-        margin: 0;
-    }
-    h4{
-        text-align: center;
-    }
+@media only screen and (max-width: 900px) {
+  #faqRow {
+    flex-direction: column;
+    text-align: center;
+  }
+  #faqElement {
+    width: 100%;
+  }
+  #banner div h4 {
+    text-align: center;
+  }
+  #banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .showcaseElement {
+    display: flex;
+    flex-direction: column;
+  }
+  .showcaseElement img {
+    width: 100%;
+    margin: 0;
+  }
+  .showcaseElement div {
+    max-width: 100%;
+    margin: 0;
+  }
+  .showcaseElementSpecial {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  .showcaseElementSpecial img {
+    width: 100%;
+    margin: 0;
+  }
+  .showcaseElementSpecial div {
+    max-width: 100%;
+    margin: 0;
+  }
+  h4 {
+    text-align: center;
+  }
 }
