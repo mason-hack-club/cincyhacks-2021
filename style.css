@@ -274,10 +274,11 @@ h4 {
 }
 #directorElement p {
   margin: 0;
+  font-size: 20px;
 }
 
 #directorElement h3 {
-  font-size: 100px;
+  font-size: 30px;
 }
 
 #coordinators {
