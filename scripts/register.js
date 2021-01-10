@@ -41,11 +41,11 @@ function register() {
         document.getElementById('Referral').value +
         '&array=' +
         document.getElementById('Other').value
-      console.log(url)
+      subscribe()
       fetch(url).then(function(response) {
         console.log(response.ok)
         if (response.ok) {
-          subscribe()
+          console.log('Registration confirmed.')
         }
       })
     }
@@ -94,7 +94,7 @@ function checkCompletion() {
     document.getElementById('State').value &&
     document.getElementById('ZIP').value &&
     document.getElementById('Pronouns').value &&
-    document.getElementById('ShirtSize').value &&
+    document.getElementById('ShirtSize').value
   ) {
     return true
   } else {

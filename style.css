@@ -19,7 +19,7 @@ body {
   margin: 0px;
 }
 #showcase {
-  margin: 0px;
+  margin-top: 25px !important;
   padding: 0px;
   background-color: white;
   width: 100%;
@@ -278,7 +278,7 @@ h4 {
 }
 
 #directorElement h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #coordinators {
@@ -428,7 +428,9 @@ h4 {
   }
   #banner div h4 {
     text-align: center;
+    padding: 100px;
   }
+
   #banner {
     display: flex;
     flex-direction: column;
