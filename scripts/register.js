@@ -84,7 +84,6 @@ function checkCompletion() {
   if (
     document.getElementById('FirstName').value &&
     document.getElementById('LastName').value &&
-    document.getElementById('PreferredName').value &&
     document.getElementById('Email').value &&
     document.getElementById('PhoneNumber').value &&
     document.getElementById('School').value &&
@@ -96,7 +95,6 @@ function checkCompletion() {
     document.getElementById('ZIP').value &&
     document.getElementById('Pronouns').value &&
     document.getElementById('ShirtSize').value &&
-    document.getElementById('Referral').value
   ) {
     return true
   } else {
