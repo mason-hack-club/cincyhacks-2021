@@ -1,6 +1,6 @@
 @font-face {
   font-family: Futura;
-  src: local("Futura"), url("futura.ttf");
+  src: local('Futura'), url('futura.ttf');
   font-weight: bold;
 }
 
@@ -17,8 +17,8 @@
   --accents-6: #444;
   --accents-7: #333;
   --accents-8: #111;
-  --font-sans: Futura, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Helvetica Neue", sans-serif;
+  --font-sans: Futura, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', sans-serif;
   --font-mono: ui-monospace, Menlo, Monaco, Lucida Console, Liberation Mono,
     Courier New, monospace;
 }
@@ -344,7 +344,7 @@ body > section {
   text-indent: -3ch;
 }
 #footer p::before {
-  content: "// ";
+  content: '// ';
   color: var(--accents-3);
 }
 
