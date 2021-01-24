@@ -1,7 +1,7 @@
-# cincyhacks-2020
-Website for CincyHacks 2020 found at cincyhacks.com
+# cincyhacks-2021
+Website for CincyHacks 2021 found at cincyhacks.com
 
-Original website by Alishaan Ali, updates by Ava Scherocman.
+Original website by Alishaan Ali, redeisgn by Lachlan Campbell, updates by Ava Scherocman.
 
 Frontend is built with vanilla HTML, CSS and JS.
 
