@@ -9,7 +9,7 @@ TL;DR of the Code of Conduct:
     Don't be destructive or inflammatory.
     If you encounter an issue, please contact a staff member.
 
-## 1. Hacker Values
+## Hacker Values
 
 These are the values to which people attending the CincyHacks event should aspire.
 
