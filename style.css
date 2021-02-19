@@ -243,6 +243,10 @@ body > section {
   width: 50%;
   height: 100%;
 }
+
+.schedule p {
+  color: white;
+}
 .schedule__header {
   font-size: 28px;
   text-align: center;
