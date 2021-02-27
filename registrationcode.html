@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="registration.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <script src="scripts/register.js"></script>
+  </head>
+  <body>
+    <div id="banner">
+      <a href="index.html"><img src="assets/logo21.svg" alt="Logo"/></a>
+      <div id="bannerSubElements">
+        <h1>Cincinnati's Original High School Hackathon <br />goes virtual.</h1>
+
+        <p>February 27th–28th, 2021</p>
+      </div>
+    </div>
+    <div id="formNester">
+      <h1>Student Registration</h1>
+      <form id="form">
+        First name*:
+        <input type="text" id="FirstName" required placeholder="John" /><br />
+        Last name*:
+        <input type="text" id="LastName" required placeholder="Doe" /><br />
+        Preferred name:
+        <input
+          type="text"
+          id="PreferredName"
+          required
+          placeholder="Johnny"
+        /><br />
+        Email*:
+        <input
+          type="text"
+          id="Email"
+          required
+          placeholder="team@cincyhacks.com"
+        /><br />
+        Confirm email*:
+        <input
+          type="text"
+          id="CheckEmail"
+          required
+          placeholder="team@cincyhacks.com"
+        /><br />
+        Phone number*:
+        <input
+          type="text"
+          id="PhoneNumber"
+          required
+          placeholder="5137892340"
+        /><br />
+        School*:
+        <input
+          type="text"
+          id="School"
+          required
+          placeholder="William Mason High School"
+        /><br />
+        Grade*:
+        <select type="text" id="Grade" required>
+          <option value="9">9th Grade</option>
+          <option value="10">10th Grade</option>
+          <option value="11">11th Grade</option>
+          <option value="12">12th Grade</option> </select
+        ><br />
+        Age*: <input type="text" id="Age" required placeholder="18" /><br />
+        <br />
+        Street Address*:
+        <input type="text" id="Address" required placeholder="42 Wallaby Way" />
+        City*:
+        <input type="text" id="City" required placeholder="Cincinnati" />
+        State*: <input type="text" id="State" required placeholder="Ohio" /> ZIP
+        Code*: <input type="text" id="ZIP" required placeholder="45040" />
+        Pronouns*:
+        <select type="text" id="Pronouns" required>
+          <option value="he/him/his">he/him/his</option>
+          <option value="she/her/hers">she/her/hers</option>
+          <option value="they/them/theirs">they/them/theirs</option>
+          <option value="Other">Other</option>
+          <option value="Prefer not to answer"
+            >Prefer not to answer</option
+          > </select
+        ><br />
+        <p>
+          Please join the event Discord, located at
+          <a target="blank" href="https://discord.gg/2g2a6Vpvhd">this link,</a>
+          and follow the instructions given.
+        </p>
+        <p>
+          <strong
+            >We've had an unexpected influx of signups, so as of 5:00 PM EST
+            2/26/21, we are out of shirts. Feel free to sign up, but we can't
+            deliver you a swag bag.</strong
+          >
+        </p>
+        Shirt Size*:
+        <select type="text" id="ShirtSize" required>
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+          <option value="2XL">2XL</option>
+          <option value="3XL">3XL</option> </select
+        ><br />
+        <br />
+        How did you hear about the event?:
+        <input type="text" id="Referral" required placeholder="Twitter" /><br />
+        Other: <input type="text" id="Other" /><br />
+        <p>
+          Note: the form may take a few seconds to send your sign-up to us
+          before the page reloads.
+        </p>
+        <input type="button" onclick="register()" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
